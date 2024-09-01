@@ -9,14 +9,14 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Queen_Anita-V2",
+        "value": "ᴵᴬᴹ ➳ᒪᴼℜ𝑫 ᙢ𝔉𝓒ᒪᴼ𝙉ᙓ➳🎮",
         "required": true
       },
   
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME ",
-        "value": "false",
-        "required": false
+        "value": "true",
+        "required": true
       },
       "USER_IMAGES": {
         "description": "Menu Images",
@@ -26,8 +26,8 @@
   
       "GOODBYE": {
         "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-        "value": "false",
-        "required": false
+        "value": "true",
+        "required": true
       },
       "MENU": {
         "description": "choose 1, 2, 3",
@@ -74,12 +74,12 @@
       },
       "WAPRESENCE": {
         "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-        "required": false,
-        "value": "unavailable"
+        "required": true,
+        "value": "available"
       },
       "AUTO_READ_STATUS": {
         "description": "Fill the value true if you want bot view your Statuses.",
-        "required": false,
+        "required": true,
         "value": "true"
       },
       "MSGS_IN_LOG": {
@@ -103,7 +103,7 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "2349066528353"
+        "value": "2349039996138"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
